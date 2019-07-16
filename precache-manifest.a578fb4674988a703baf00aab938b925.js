@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ffe47303f74833a17d17294f2d0aafb1",
+    "revision": "0704ef0accf37cb44eb9d134023433ba",
     "url": "/InventoryTrackingApp/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/InventoryTrackingApp/static/js/2.a0d969bc.chunk.js"
   },
   {
-    "revision": "42e5dba76b3c4db419f9",
-    "url": "/InventoryTrackingApp/static/js/main.6a8629a0.chunk.js"
+    "revision": "c41bea6864f4f2cbe02a",
+    "url": "/InventoryTrackingApp/static/js/main.94614e6d.chunk.js"
   },
   {
     "revision": "9fbbcb11ad85aad6ea67",
