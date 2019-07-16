@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/InventoryTrackingApp/static/js/main.074dc419.chunk.js",
-    "main.js.map": "/InventoryTrackingApp/static/js/main.074dc419.chunk.js.map",
+    "main.js": "/InventoryTrackingApp/static/js/main.6a8629a0.chunk.js",
+    "main.js.map": "/InventoryTrackingApp/static/js/main.6a8629a0.chunk.js.map",
     "runtime~main.js": "/InventoryTrackingApp/static/js/runtime~main.c44761cc.js",
     "runtime~main.js.map": "/InventoryTrackingApp/static/js/runtime~main.c44761cc.js.map",
     "static/css/2.00da11b9.chunk.css": "/InventoryTrackingApp/static/css/2.00da11b9.chunk.css",
     "static/js/2.a0d969bc.chunk.js": "/InventoryTrackingApp/static/js/2.a0d969bc.chunk.js",
     "static/js/2.a0d969bc.chunk.js.map": "/InventoryTrackingApp/static/js/2.a0d969bc.chunk.js.map",
     "index.html": "/InventoryTrackingApp/index.html",
-    "precache-manifest.a6e2afca25e7699e42974e5d056698c0.js": "/InventoryTrackingApp/precache-manifest.a6e2afca25e7699e42974e5d056698c0.js",
+    "precache-manifest.4d6f99bfa6541f0479b3a3b705e79607.js": "/InventoryTrackingApp/precache-manifest.4d6f99bfa6541f0479b3a3b705e79607.js",
     "service-worker.js": "/InventoryTrackingApp/service-worker.js",
     "static/css/2.00da11b9.chunk.css.map": "/InventoryTrackingApp/static/css/2.00da11b9.chunk.css.map"
   }
