@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "imagerecognition-245806",
+  "private_key_id": "601b99bc52c2f336e732d3954381775d5f2a6045",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCTbDpeOM2xFCJ8\nzef9TiH0h5ygsiwvgUUDIVM2W3yHklOPK3lqhK1jDNRHwct4aCQ6kn5OlfQIS650\nDe4v/438OdBVfXmIJvOsY8UNS9MHHVITbka8YLBht923lGnzqvK59Z5kJROsa2bq\nHHgz4qt9h6sWBoxHl++WA4M30OIRUOOk1EttN+FqxMrPi2RgfSn5HTkz4Bo2sRqm\n/oFROAyqlkmYFcq0y2QVEXsQZu4nwBPxlYkHQtQuld7Z+wwVPSPaUTKIVLfXn1qP\n2HebLOW8eYEYQKirrhdR17FbAWxxuX9+1Yqnf0EIcC+Kl1pf/qu75N1F9Sw1E5q0\nORL+eSuXAgMBAAECggEALS+dnlar2UxyG63jHxVtO+27GNgzyeXF+OUkg8M74rP7\nj6UEJJ2BJZx/jnT8gC3veNKBC2ZT85z63lCMwsKCSx6PWDzK3OwPgTXdZqtohcQ7\nbYA+Byxds73vI/9GEG1D07LQtyJUKuOKmlRalZCy/plwW6JrKeCMi38NH7UTLboV\nyvfBS2/EMNebw8ibyf6iPS/6RAjD2hv3cekgaqC9ug0r8okX0vMKjxuMr+FS3sOl\nfCDOJPwUB1Y4PhyBlMBa3TOY+xC7tqCcnJHjxMA9m/nV0gyn3jms2pAh4lOHuMwk\n/DTlgLraz2YmoANwAoj/8NwYwd+ZiEN5xxkuSZGoYQKBgQDEm/5zQ42sw32FipNm\nxEbDBYJw4GsxGZWSXBhwjpSJMZNpfHsk9cAMmbLJp80jdHBwfkOnLZyAaDBjMIOp\nYs16ceCdzs96xvrxVzO4IQvLFt/J+F33KyOP73X1c0a0bK8lpm/nVo6q3gj7YQIZ\njWvMsQScuNC4wJ2A1BPpqf1O4QKBgQC/9JWImRZGdk4JUmV5vOIj/t/HzAXxCS2I\nby/gPwBdFVO5lE+I36b0iKD/X1XmZ8GyP9k4/dwRzjSZ+5FmhFqTLmjKufHVxlHt\nXtGkQOn2JqY9OJCnQdumvQ0GEIFzszLXmdzOhH34gNxPcHwdabuqd8gMobUA+AA9\n5W8+xN6hdwKBgAxUdBqqa+IfyGltjVzuhjmIyOtnR5GmtxicqfO1HV+VOldtNRPW\nTZr8sJew7E6C6OJFKNz9IUl0P0SZMEiZJ6W8Kof7Bkv+2pH0FAxCFklAP/yclNgB\nXpOSQuWHuzFpd3p2+6GYbg4NKqcJKGaN1eraVx21AXH0smv34N/Qh1BBAoGAPuuD\nIHVdsdcRmUii7paVYcsnuywLPokNnc0kWlMMYXaeLRSKRYlaBonKjCrJ025rNWxs\nXZwIyOVYpKirbnkv31K1Es6EkNgi/rW37ilBB2h/0U17TPfvceZCIJzEchJpNfa/\nRAp16EEE9h0e8d04oJYGwu02kYy5N5C/OEn7190CgYEAlCYMSJi4hb7/jaGK7dim\nPSdJeG/gfmW9BmPmw+xlcgsbnAC3XVBGgxblPqjKhalGCqTNmW0kvHNAGgzvgaPK\nnIbibZzJFTj++cy2TTuID9fRoY3/KKrR3eIhNkr7qy/1iyu6edROklxMKA82vHim\nrAgjzh5nss+bi0H5ae1LS3U=\n-----END PRIVATE KEY-----\n",
+  "client_email": "inventorytracking@imagerecognition-245806.iam.gserviceaccount.com",
+  "client_id": "117004820579225827316",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/inventorytracking%40imagerecognition-245806.iam.gserviceaccount.com"
+}
