@@ -56,7 +56,6 @@ class SpeechToText extends React.Component {
 
     let fd = new FormData();
     fd.append("audio", this.state.recordedAudio.blob);
-    console.log(this.props.selectedDivisionCode);
 
     fetch(
       this.props.url +

@@ -26,5 +26,3 @@ class Result extends React.Component {
 }
 
 export default Result;
-
-/*console.log(this.props.result); */

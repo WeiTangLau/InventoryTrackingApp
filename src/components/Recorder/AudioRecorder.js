@@ -3,10 +3,6 @@ import { Button } from "react-bootstrap";
 import { ReactMic } from "react-mic";
 
 class AudioRecorder extends Component {
-  onData = recordedBlob => {
-    console.log("chunk of real-time data is: ", recordedBlob);
-  };
-
   render() {
     return (
       <div>
@@ -14,7 +10,6 @@ class AudioRecorder extends Component {
           <ReactMic
             className="w-10 h-1 aspect-ratio ml2"
             record={this.props.recording}
-            onData={this.props.onData}
             onStop={this.props.onStop}
             strokeColor="#FFFFFF"
           />
