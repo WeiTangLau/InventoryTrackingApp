@@ -3,9 +3,14 @@
   "name": "Stock Tracker Application",
   "icons": [
     {
-      "src": "src/images/logo.png",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-png"
+      "src": "stocker.png",
+      "sizes": "192x192 144x144 64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "stocker_500.png",
+      "sizes": "500x500",
+      "type": "image/png"
     }
   ],
   "start_url": "https://weitanglau.github.io/Stocker/",
