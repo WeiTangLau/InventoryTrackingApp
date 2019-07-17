@@ -3,13 +3,18 @@
   "name": "Stock Tracker Application",
   "icons": [
     {
+      "src": "stocker_32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
       "src": "stocker.png",
-      "sizes": "192X192",
+      "sizes": "192x192",
       "type": "image/png"
     },
     {
       "src": "stocker_500.png",
-      "sizes": "512X512",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ],
