@@ -4,12 +4,12 @@
   "icons": [
     {
       "src": "stocker.png",
-      "sizes": "192x192 144x144 64x64 32x32 24x24 16x16",
+      "sizes": "192X192",
       "type": "image/png"
     },
     {
       "src": "stocker_500.png",
-      "sizes": "500x500",
+      "sizes": "512X512",
       "type": "image/png"
     }
   ],

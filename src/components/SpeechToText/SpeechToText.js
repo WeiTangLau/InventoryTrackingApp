@@ -74,7 +74,7 @@ class SpeechToText extends React.Component {
 
   render() {
     return (
-      <div className="ma3">
+      <div>
         <input
           type="file"
           accept="audio/*"

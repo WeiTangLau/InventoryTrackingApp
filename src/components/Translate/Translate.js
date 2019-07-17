@@ -42,7 +42,7 @@ class Translate extends React.Component {
 
   render() {
     return (
-      <div className="ma3">
+      <div>
         <Form>
           <OverlayTrigger
             key="bottom"
