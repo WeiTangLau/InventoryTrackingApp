@@ -2,13 +2,13 @@ import React, { Component } from "react";
 import { Button } from "react-bootstrap";
 import { ReactMic } from "react-mic";
 
-class AudioRecorder extends Component {
+class Recorder extends Component {
   render() {
     return (
       <div>
         <div>
           <ReactMic
-            className="w-10 h-1 aspect-ratio ml2"
+            className="ma3 w-10 h-1 aspect-ratio ml2"
             record={this.props.recording}
             onStop={this.props.onStop}
             strokeColor="#FFFFFF"
@@ -29,4 +29,4 @@ class AudioRecorder extends Component {
   }
 }
 
-export default AudioRecorder;
+export default Recorder;

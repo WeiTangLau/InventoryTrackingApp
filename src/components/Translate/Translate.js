@@ -54,7 +54,7 @@ class Translate extends React.Component {
             }
           >
             <Form.Group as={Col}>
-              <Form.Label>
+              <Form.Label className="pt2">
                 Please enter text to translate from any language to English
               </Form.Label>
               <Form.Control

@@ -1,6 +1,6 @@
 import React from "react";
 import { ButtonGroup, Button } from "react-bootstrap";
-import AudioRecorder from "../Recorder/AudioRecorder";
+import Recorder from "../Recorder/Recorder";
 import Table from "../Table/Table";
 
 class SpeechToText extends React.Component {
@@ -76,13 +76,14 @@ class SpeechToText extends React.Component {
     return (
       <div>
         <input
+          className="ma3"
           type="file"
           accept="audio/*"
           capture
           id="recorder"
           onChange={this.onRecordAudio}
         />
-        <AudioRecorder
+        <Recorder
           recording={this.state.recording}
           recordedAudio={this.state.recordedAudio}
           onStartRecord={this.onStartRecord}
