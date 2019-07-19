@@ -21,10 +21,10 @@ class Translate extends React.Component {
   translateText = () => {
     fetch(
       this.props.url +
-        "translates?q=" +
-        this.state.textToTranslate +
-        "&divisionCode=" +
-        this.props.selectedDivisionCode,
+        "divisionCodes/" +
+        this.props.selectedDivisionCode +
+        "/items/translates?q=" +
+        this.state.textToTranslate,
       {
         method: "get"
       }

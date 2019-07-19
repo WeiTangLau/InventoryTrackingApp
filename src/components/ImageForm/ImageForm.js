@@ -25,13 +25,18 @@ class ImageForm extends React.Component {
 
     const fd = new FormData();
     fd.append("image", this.state.selectedImage);
-    fd.append("divisionCode", this.props.selectedDivisionCode);
 
-    fetch(this.props.url + "pictures/", {
-      method: "post",
-      body: fd,
-      headers: { Accept: "multipart/form-data" }
-    })
+    fetch(
+      this.props.url +
+        "divisionCodes/" +
+        this.props.selectedDivisionCode +
+        "/items/imageRecognition/",
+      {
+        method: "post",
+        body: fd,
+        headers: { Accept: "multipart/form-data" }
+      }
+    )
       .then(response => response.json())
       .then(data => {
         this.setState({ result: data });
@@ -79,26 +84,3 @@ class ImageForm extends React.Component {
 }
 
 export default ImageForm;
-/*
-  columns = [
-    {
-      Header: "Description",
-      id: "description",
-      style: {
-        textAlign: "center"
-      },
-      accessor: c => c.description
-    },
-    {
-      Header: "Score",
-      id: "score",
-      style: {
-        textAlign: "center"
-      },
-      accessor: c => c.score
-    }
-  ]; 
-  
-  <ReactTable columns={this.columns} data={this.state.result} />
-  
-  */

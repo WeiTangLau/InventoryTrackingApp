@@ -59,7 +59,9 @@ class SpeechToText extends React.Component {
 
     fetch(
       this.props.url +
-        "speeches?divisionCode=" +
+        "divisionCodes/" +
+        this.props.selectedDivisionCode +
+        "/items/speeches?divisionCode=" +
         this.props.selectedDivisionCode,
       {
         method: "post",

@@ -18,8 +18,8 @@ class App extends Component {
       categories: list of categories
     */
     this.state = {
-      url: "https://stocker-api.herokuapp.com/inventories/",
-      //url: "http://10.176.27.84:8081/inventories/",
+      //url: "https://stocker-api.herokuapp.com/inventories/",
+      url: "http://10.176.27.84:8081/inventories/",
       divisionCodes: [],
       selectedDivisionCode: "41", // Enters default division code
       items: [],
@@ -34,8 +34,9 @@ class App extends Component {
     of the newly selected Division Code.
   */
   onDropdownButtonClick = event => {
+    this.setState({ selectedDivisionCode: event.target.innerText });
     fetch(
-      this.state.url + "DivisionCodes/" + event.target.innerText + "/items",
+      this.state.url + "divisionCodes/" + event.target.innerText + "/items",
       {
         method: "GET",
         headers: {
@@ -101,7 +102,7 @@ class App extends Component {
     Fetch all relevant resources when the app starts
   */
   componentDidMount() {
-    fetch(this.state.url + "Brands/", {
+    fetch(this.state.url + "brands/", {
       method: "get",
       headers: {
         "Content-Type": "application/json",
@@ -113,7 +114,7 @@ class App extends Component {
         this.setState({ brands: data });
       });
 
-    fetch(this.state.url + "Categories/", {
+    fetch(this.state.url + "categories/", {
       method: "get",
       headers: {
         "Content-Type": "application/json",
@@ -125,7 +126,7 @@ class App extends Component {
         this.setState({ categories: data });
       });
 
-    fetch(this.state.url + "DivisionCodes/", {
+    fetch(this.state.url + "divisionCodes/", {
       method: "get",
       headers: {
         "Content-Type": "application/json",
@@ -139,7 +140,7 @@ class App extends Component {
 
     fetch(
       this.state.url +
-        "DivisionCodes/" +
+        "divisionCodes/" +
         this.state.selectedDivisionCode +
         "/items",
       {
