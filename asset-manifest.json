@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/Stocker/static/js/main.eb0def83.chunk.js",
-    "main.js.map": "/Stocker/static/js/main.eb0def83.chunk.js.map",
+    "main.js": "/Stocker/static/js/main.39c3ce15.chunk.js",
+    "main.js.map": "/Stocker/static/js/main.39c3ce15.chunk.js.map",
     "runtime~main.js": "/Stocker/static/js/runtime~main.3eade0ac.js",
     "runtime~main.js.map": "/Stocker/static/js/runtime~main.3eade0ac.js.map",
     "static/css/2.00da11b9.chunk.css": "/Stocker/static/css/2.00da11b9.chunk.css",
     "static/js/2.a0d969bc.chunk.js": "/Stocker/static/js/2.a0d969bc.chunk.js",
     "static/js/2.a0d969bc.chunk.js.map": "/Stocker/static/js/2.a0d969bc.chunk.js.map",
     "index.html": "/Stocker/index.html",
-    "precache-manifest.2f9b578456874c600fe369a4f7a648b1.js": "/Stocker/precache-manifest.2f9b578456874c600fe369a4f7a648b1.js",
+    "precache-manifest.9da9cf66749a509f08e276f801ec2673.js": "/Stocker/precache-manifest.9da9cf66749a509f08e276f801ec2673.js",
     "service-worker.js": "/Stocker/service-worker.js",
     "static/css/2.00da11b9.chunk.css.map": "/Stocker/static/css/2.00da11b9.chunk.css.map"
   }
