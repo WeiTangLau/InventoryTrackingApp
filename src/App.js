@@ -19,7 +19,6 @@ class App extends Component {
     */
     this.state = {
       url: "https://stocker-api.herokuapp.com/inventories/",
-      //url: "http://10.176.27.84:8081/inventories/",
       divisionCodes: [],
       selectedDivisionCode: "41", // Enters default division code
       items: [],
