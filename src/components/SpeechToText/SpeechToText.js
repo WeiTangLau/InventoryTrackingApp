@@ -22,13 +22,13 @@ class SpeechToText extends React.Component {
 
     fetch(
       this.props.url +
-        "speeches?divisionCode=" +
-        this.props.selectedDivisionCode,
+        "divisionCodes/" +
+        this.props.selectedDivisionCode +
+        "/items/speeches/",
       {
         method: "post",
         body: fd,
         header: {
-          Accept: "multipart/form-data",
           "Content-Type": "multipart/form-data"
         }
       }
@@ -61,8 +61,7 @@ class SpeechToText extends React.Component {
       this.props.url +
         "divisionCodes/" +
         this.props.selectedDivisionCode +
-        "/items/speeches?divisionCode=" +
-        this.props.selectedDivisionCode,
+        "/items/speeches/",
       {
         method: "post",
         body: fd

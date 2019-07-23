@@ -9,7 +9,7 @@ class ItemImage extends React.Component {
           <Col className="flex justify-center">
             <Image
               className="w-25-l pa3"
-              src={`data:image/png;base64,${this.props.image}`}
+              src={this.props.image}
               alt="product"
             />
           </Col>
