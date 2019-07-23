@@ -1,5 +1,5 @@
 import React from "react";
-import { InputGroup, FormControl, Button } from "react-bootstrap";
+import { InputGroup, FormControl } from "react-bootstrap";
 
 class Searchbar extends React.Component {
   render() {
@@ -14,19 +14,9 @@ class Searchbar extends React.Component {
             aria-label="Search for item"
             aria-describedby="basic-addon2"
           />
-          <InputGroup.Append>
-            <Button className="flex justify-end" variant="outline-secondary">
-              Search
-            </Button>
-          </InputGroup.Append>
         </InputGroup>
       </div>
     );
   }
 }
 export default Searchbar;
-
-//col-md-5 offset-md-6
-/*
-
-      */

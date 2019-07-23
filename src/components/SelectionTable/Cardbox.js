@@ -7,6 +7,7 @@ import {
   ButtonToolbar,
   Button
 } from "react-bootstrap";
+
 const Cardbox = props => {
   if (props.type === "criteria") {
     return (
