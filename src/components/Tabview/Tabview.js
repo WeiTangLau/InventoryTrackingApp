@@ -18,6 +18,7 @@ class Tabview extends React.Component {
     return (
       <div className="ma3 br3 ba b--black-10 mv4 w-100 w-50-m w-25-l mw8 shadow-5 center">
         <Tabs
+          className="f6"
           id="controlled-tab-example"
           activeKey={this.state.key}
           onSelect={key => this.setState({ key })}
